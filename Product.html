@@ -1,0 +1,329 @@
+<html>
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.pro {
+  background-color: #c300ff;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a class="pro"href="Product.html">Products</a>
+  <a class="News"href="News.html">News</a>
+  <a href="About.html">About</a>
+  <a class="com"href="Contact Us.html">Contact Us</a>
+</div><br>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="left" style="background-color:#bbb;">
+    <h2>Search Products</h2>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <ul id="myMenu">
+      <li><a href="shampoo.html">Shampoo</a></li>
+      <li><a href="conditioner.html">Conditioner</a></li>
+      <li><a href="facewash.html">Face Wash</a></li>
+      <li><a href="creame.html">Moisturizing Creame</a></li>
+      <li><a href="bw.html">Body Wash</a></li>
+      <li><a href="lotion.html">Lotion</a></li>
+      <li><a href="chocho.html">Chocolates</a></li>
+      <li><a href="bp.html">Baby Products</a></li>
+    </ul>
+  </div>
+  
+  <div class="right" style="background-color:#ddd; justify-content: center; align-items: center; display: flex;">
+    <h2>Find all our Products here or visit our facebook page to find all the products.</h2>
+  </div>
+</div>
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
+<h1 style="color: rgb(0, 17, 255); text-align: center;">Browse all Products</h1>
+</body>
+</html>
+<head>
+<title>Products</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+<img src="C_C_Acne_Triple_Clear-removebg-preview.png" alt=""> <h2>Name: Clean & Clear Acne Triple Clear.
+    Price: 1400TK
+
+</h2>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+
+</body>
+</html>
+
+<img src="C_C_Deep_Action-removebg-preview.png" alt="">
+<h2>Name: Clean & Clear Deep Action.
+    Price: 1200TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="C_C_lemon-removebg-preview.png" alt="">
+<h2>Name: Clean & Clear lemon.
+    Price: 1050TK </h2>
+    <p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="C_C_Morning_Energy-removebg-preview.png" alt="">
+<h2>Name: Clean & Clear Morning Energy.
+    Price: 1050TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Clean_and_Clear_Foaming_Facial-removebg-preview.png" alt="">
+<h2>Name: Clean & Clear Foaming Facial.
+    Price: 1490TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Clean_and_Clear_morning_burst-removebg-preview.png" alt="">
+<h2>Name: Clean & Clear Morning Burst.
+    Price: 1490TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="H_S_Apple_Sider_Vinegar-removebg-preview.png" alt="">
+<h2>Name: H&S Apple Sider Vinegar.
+    Price: Sold Out
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="H_S_Coconut-removebg-preview.png" alt="">
+<h2>Name: H&S Coconut.
+    Price: Sold Out
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="H_S_Green_Grape-removebg-preview.png" alt="">
+<h2>Name: H&S Green Grape.
+    Price: 1550TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Honey_Blossom_Scents-removebg-preview.png" alt="">
+<h2>Name: Honey Blossom Scents.
+    Price: TBD
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Johnson_aloe___vitamin_e_powder-removebg-preview.png" alt="">
+<h2>Name: Johnson Aloe And Vitamin E.
+    Price: 1050TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Johnson_Baby_Lotion-removebg-preview.png" alt="">
+<h2>Name: Johnson Baby Lotion.
+    Price: 900TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Johnson_Baby_Shampoo-removebg-preview.png" alt="">
+<h2>Name: Johnson Baby Shampoo.
+    Price: 1200TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Johnson_Cotton_Touch-removebg-preview.png" alt="">
+<h2>Name: Johnson Cotton Touch.
+    Price: 1200TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="KitKat_Chocolate-removebg-preview.png" alt="">
+<h2>Name: Kitkat Chocolate.
+    Price: TBD
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena__all-In-1_Acne_Control-removebg-preview.png" alt="">
+<h2>Name: Nutrogena All-In-1 Acne Control.
+    Price: 1400TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena_Blackhead_Eliminating-removebg-preview.png" alt="">
+<h2>Name: Nutrogena Blackhead Eliminating.
+    Price: 1050 TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena_Clear_and_defend-removebg-preview.png" alt="">
+<h2>Name: Nutrogena Clear And Defend Wash Mask.
+    Price: TBD
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena_Deep_clean_Purifying-removebg-preview.png" alt="">
+<h2>Name: Nutrogena Deep Clean Purifying.
+    Price: 1050TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena_Oil_free_acne_wash-removebg-preview.png" alt="">
+<h2>Name: Oil Free Acne Wash.
+    Price: 1050TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Nutrogena_Soothing_Clear-removebg-preview.png" alt="">
+<h2>Name: Nutrogena Soothing Clear.
+    Price: 850TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Pantene_Shampoo-removebg-preview.png" alt="">
+<h2>Name: Pantene Shampoo.
+    Price: 1850TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="Pink_Crush_Scents-removebg-preview.png" alt="">
+<h2>Name: Pink Crush Scents.
+    Price: TBD
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<img src="ST._Ives_Blackhead_Clearing-removebg-preview.png" alt="">
+<h2>Name: ST. Ives Blackhead Clearing.
+    Price: 1200 TK
+</h2>
+<p><a href="https://www.facebook.com/messages/t/108193964902139">Order!</a></p>
+<a href="Product.html"><button>Top</button></a>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #000000;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #000000;}
+
+.warning {background-color: #ff0000;} /* Orange */
+.warning:hover {background: #000000;}
+
+.danger {background-color: #fa8500;} /* Red */ 
+.danger:hover {background: #000000;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+</style>
+</head>
+<body>
+
+    <h1>Go to...</h1>
+    <a href="News.html"><button class="btn info">News</button></a>
+    <a href="About.html"><button class="btn warning">About</button></a>
+    <a href="Contact Us.html"><button class="btn danger">Contact Us</button></a>
+    <h6 style="text-align: center;">Copyright © 2021-2022 USA Beauty Touch Inc. All Rights Resevered ©</h6>
+    </body>
+    </html>
+    
